@@ -36,37 +36,37 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Bidirectional RRT algorithm in the ARM Office
 
-#### Run MobileSim
-* Select the robot model *p3dx-sh-lms1xx*
-* Select the map *AMROffice.map*
+* Run MobileSim
+  * Select the robot model *p3dx-sh-lms1xx*
+  * Select the map *AMROffice.map*
 
-#### Launch renpsm_office.launch
-* *roslaunch renpsm renpsm_office.launch*
+* Launch renpsm_office.launch
+  * *roslaunch renpsm renpsm_office.launch*
 
-#### In the Rviz GUI, select a navigation goal to see the visualization
+* In the Rviz GUI, select a navigation goal to see the visualization
 
 ### Bidirectional RRT algorithm in a virtual environment
 
-#### Run MobileSim
-* Select the robot model p3dx-sh-lms1xx
-* Select the map map1.map
+* Run MobileSim
+  * Select the robot model p3dx-sh-lms1xx
+  * Select the map map1.map
 
-#### Launch renpsm_rrt.launch
-* roslaunch renpsm renpsm_rrt.launch
+* Launch renpsm_rrt.launch
+  * roslaunch renpsm renpsm_rrt.launch
 
-#### In the Rviz GUI, select a navigation goal to see the visualization
+* In the Rviz GUI, select a navigation goal to see the visualization
 
 
 ### Benchmark in a virtual environment
 
-#### Run MobileSim
-* Select the robot model p3dx-sh-lms1xx
-* Select the map map1.map
+* Run MobileSim
+  * Select the robot model p3dx-sh-lms1xx
+  * Select the map map1.map
 
-#### Launch renpsm_rrt1.launch
-* roslaunch renpsm renpsm_rrt1.launch
+* Launch renpsm_rrt1.launch
+  * roslaunch renpsm renpsm_rrt1.launch
 
-#### The benchmarking results will be shown in the standard output.
+* The benchmarking results will be shown in the standard output.
 
 
 ## Authors
